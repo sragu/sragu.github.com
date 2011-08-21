@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>No Technique</title>
+  <link href="http://sragu.github.com/atom.xml" rel="self"/>
+  <link href="http://sragu.github.com/"/>
+  <updated>2011-08-15T10:24:29-05:00</updated>
+  <id>http://sragu.github.com/</id>
+  <author>
+    <name>Srinivasan Raguraman</name>
+    
+  </author>
+
+  
+  <entry>
+    <title>Languages for Generations</title>
+    <link href="http://sragu.github.com/blog/2011/08/15/languages-for-generations/"/>
+    <updated>2011-08-15T04:48:00-05:00</updated>
+    <id>http://sragu.github.com/blog/2011/08/15/languages-for-generations</id>
+    <content type="html">&lt;p&gt;We are learn languages as progress through our programming career, we hate some; love some. Once a hot language of the day easily becomes enterprise for the next generations.&lt;/p&gt;
+
+&lt;p&gt;There could be a several reasons for that:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Becoming a thing that you very much mocked at once.&lt;/li&gt;
+&lt;li&gt;People learn and expect the language to grow with them, but not all languages grows - most stay right there where majority of users want them them to be at - even its harmful. or in other words they stay at the level of users who generate money for the language creator.&lt;/li&gt;
+&lt;li&gt;new people have new perspectives, and they see things different&lt;/li&gt;
+&lt;li&gt;some languages stay stale with their initial propaganda, but things change, new problems arise (multi-core). (i.e. there is always a problem, but not the same problem)&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;As much true that is the new language is never a new idea, it is just the same idea that has been around but executed better with the collective learning from the past.&lt;/p&gt;
+</content>
+  </entry>
+  
+</feed>
