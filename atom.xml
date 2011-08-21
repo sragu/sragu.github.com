@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title>pwd</title>
+  <title>type blog</title>
   <link href="http://sragu.github.com/atom.xml" rel="self"/>
   <link href="http://sragu.github.com/"/>
-  <updated>2011-08-21T12:36:07-07:00</updated>
+  <updated>2011-08-21T12:49:25-07:00</updated>
   <id>http://sragu.github.com/</id>
   <author>
     <name>Srinivasan Raguraman</name>
