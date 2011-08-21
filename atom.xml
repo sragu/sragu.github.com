@@ -4,7 +4,7 @@
   <title>type blog</title>
   <link href="http://sragu.github.com/atom.xml" rel="self"/>
   <link href="http://sragu.github.com/"/>
-  <updated>2011-08-21T12:53:09-07:00</updated>
+  <updated>2011-08-21T13:20:42-07:00</updated>
   <id>http://sragu.github.com/</id>
   <author>
     <name>Srinivasan Raguraman</name>
@@ -29,9 +29,9 @@
 
 &lt;h3&gt;Github or Dropbox or Remote Folder backup?&lt;/h3&gt;
 
-&lt;p&gt;Once you decided to commit them to a source control system, the next obvious decision is to where to put the source control system. You definitely don't want them backup'ed only on local system, as you would need to sync them else where and also save you self from machine crashes.&lt;/p&gt;
+&lt;p&gt;Once you decided to commit them to a source control system, the next obvious decision is to where to put the source control system. You definitely don't want them backup'ed only on local system, as you would need to sync them else where and also save yourself from machine crashes.&lt;/p&gt;
 
-&lt;p&gt;I would choose a public &lt;a href=&quot;http://github.com&quot;&gt;Github&lt;/a&gt; repository if my dot-files didn't have any private information. But quite often we share keys to remote machines, hashed passwords and other private information under our home directory. So I would choose a dropbox account or remote folder to sync them up based on you privacy requirements of what you have in your dot files. Dropbox normally syncs up your files at ~/Dropbox.&lt;/p&gt;
+&lt;p&gt;I would choose a public &lt;a href=&quot;http://github.com&quot;&gt;Github&lt;/a&gt; repository if my dot-files didn't have any private information. But quite often we share keys to remote machines, hashed passwords and other private information under our home directory. So I would choose a dropbox account or remote folder to sync them up based on your privacy requirements (i.e. what you have in your dot files). Dropbox normally syncs up your files at ~/Dropbox, thus you can easily use it.&lt;/p&gt;
 
 &lt;div&gt;&lt;script src='https://gist.github.com/1160309.js?file=dot-files-1.sh'&gt;&lt;/script&gt;
 &lt;noscript&gt;&lt;pre&gt;&lt;code&gt;mkdir -p ~/Dropbox/git-repo/dotfiles.git
@@ -40,7 +40,7 @@ git init --bare
 &lt;/code&gt;&lt;/pre&gt;&lt;/noscript&gt;&lt;/div&gt;
 
 
-&lt;p&gt;This creates the master repository under DropBox. Go check out this repository some local directory.&lt;/p&gt;
+&lt;p&gt;This creates the master repository under DropBox. Go check out dotfiles repository into some local directory.&lt;/p&gt;
 
 &lt;div&gt;&lt;script src='https://gist.github.com/1160309.js?file=dot-files-2.sh'&gt;&lt;/script&gt;
 &lt;noscript&gt;&lt;pre&gt;&lt;code&gt;cd ~/projects
