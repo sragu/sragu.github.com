@@ -4,12 +4,57 @@
   <title>pwd</title>
   <link href="http://sragu.github.com/atom.xml" rel="self"/>
   <link href="http://sragu.github.com/"/>
-  <updated>2011-08-20T23:15:49-07:00</updated>
+  <updated>2011-08-21T01:35:16-07:00</updated>
   <id>http://sragu.github.com/</id>
   <author>
     <name>Srinivasan Raguraman</name>
     
   </author>
 
+  
+  <entry>
+    <title>A Guide to Managing .(dot) Files</title>
+    <link href="http://sragu.github.com/blog/2011/08/20/a-guide-to-managing--dot-files/"/>
+    <updated>2011-08-20T23:54:00-07:00</updated>
+    <id>http://sragu.github.com/blog/2011/08/20/a-guide-to-managing--dot-files</id>
+    <content type="html">&lt;p&gt;Home directory on a terminal/shell/bash for developers is close to what a backstage is for rockstars. That's where we put most of our self curated scripts which could do the magic for us at the moment we want. They make us highly productive. We wish that it's setup right at every place, so we could just start working - instead of re-tuning the environment variables again.&lt;/p&gt;
+
+&lt;p&gt;As a programmer often we work out of different machines, or login to remote machines for managing or debugging or even deploying our code. Thus its highly important to have the ability to sync where we need them.&lt;/p&gt;
+
+&lt;h3&gt;Store them in Source Control&lt;/h3&gt;
+
+&lt;p&gt;There are several benefits to have them under source control. After all it is naturally beneficial to version them just like any code that we write. It would be easy to bring them back to live if your machine dies, or to resort to a last working copy.&lt;/p&gt;
+
+&lt;p&gt;Chose any source control that you are comfortable with. I have chosen git for various obvious benefits and its something I commonly use these days.&lt;/p&gt;
+
+&lt;h3&gt;Github or Dropbox or Remote Folder backup?&lt;/h3&gt;
+
+&lt;p&gt;Once you decided to commit them to a source control system, the next obvious decision is to where to put the source control system. You definitely don't want them backup'ed only on local system, as you would need to sync them else where and also save you self from machine crashes.&lt;/p&gt;
+
+&lt;p&gt;I would choose a public github.com repository if my dot-files didn't have any private information. But quite often we share keys to remote machines, hashed passwords and other private information under our home directory. So I would choose a dropbox account or remote folder to sync them up based on you privacy requirements of what you have in your dot files. Dropbox normally syncs up your files at ~/Dropbox.&lt;/p&gt;
+
+&lt;div&gt;&lt;script src='https://gist.github.com/1160309.js?file=dot-files-1.sh'&gt;&lt;/script&gt;
+&lt;noscript&gt;&lt;pre&gt;&lt;code&gt;mkdir -p ~/Dropbox/git-repo/dotfiles.git
+cd ~/Dropbox/git-repo/dotfiles.git
+git init --bare
+&lt;/code&gt;&lt;/pre&gt;&lt;/noscript&gt;&lt;/div&gt;
+
+
+&lt;p&gt;This creates the master repository under DropBox. Go check out this repository some local directory.&lt;/p&gt;
+
+&lt;div&gt;&lt;figure role=code&gt;&lt;pre&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;Why not to make your home directory as a git repo!&lt;/h3&gt;
+
+&lt;p&gt;Some people manage their home directory in a similar way, but keeping the entire home directory directly into the repository; and adding git ignore for the other folders under home directory. This has its minor advantage of being able to show you un-commited changes to your dot files, but with other drawbacks.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;manually add git ignore for every new folder that your create&lt;/li&gt;
+&lt;li&gt;if you want to ignore folder only on several machines, not all.&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+  </entry>
   
 </feed>
