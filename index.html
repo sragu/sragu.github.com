@@ -108,103 +108,12 @@
 
 <p>As a programmer often we work out of different machines, or login to remote machines for managing or debugging or even deploying our code. Thus its highly important to have the ability to sync where we need them.</p>
 
-<h3>Store them in Source Control</h3>
-
-<p>There are several benefits to have them under source control. After all it is naturally beneficial to version them just like any code that we write. It would be easy to bring them back to live if your machine dies, or to resort to a last working copy.</p>
-
-<p>Chose any source control that you are comfortable with. I have chosen git for various obvious benefits and its something I commonly use these days.</p>
-
-<h3>Github or Dropbox or Remote Folder backup?</h3>
-
-<p>Once you decided to commit them to a source control system, the next obvious decision is to where to put the source control system. You definitely don&#8217;t want them backup&#8217;ed only on local system, as you would need to sync them else where and also save yourself from machine crashes.</p>
-
-<p>I would choose a public <a href="http://github.com">Github</a> repository if my dot-files didn&#8217;t have any private information. But quite often we share keys to remote machines, hashed passwords and other private information under our home directory. So I would choose a dropbox account or remote folder to sync them up based on your privacy requirements (i.e. what you have in your dot files). Dropbox normally syncs up your files at ~/Dropbox, thus you can easily use it.</p>
-
-<div><script src='https://gist.github.com/1160309.js?file=dot-files-1.sh'></script>
-<noscript><pre><code>mkdir -p ~/Dropbox/git-repo/dotfiles.git
-cd ~/Dropbox/git-repo/dotfiles.git
-git init --bare
-</code></pre></noscript></div>
-
-
-<p>This creates the master repository under DropBox. Go check out dotfiles repository into some local directory.</p>
-
-<div><script src='https://gist.github.com/1160309.js?file=dot-files-2.sh'></script>
-<noscript><pre><code>cd ~/projects
-projects $ git clone ~/Dropbox/git-repo/dotfiles.git
-Cloning into dotfiles...
-done.
-projects $ cd dotfiles/
-dotfiles(master) $</code></pre></noscript></div>
-
-
-<h3>Why not to make your home directory as a git repo!</h3>
-
-<p>Some people manage their home directory in a similar way, but keeping the entire home directory directly into the repository; and adding git ignore for the other folders under home directory. This has its minor advantage of being able to show you un-commited changes to your dot files, but with other drawbacks.</p>
-
-<ul>
-<li>requires manually adding git ignore for every new folder that you create on home</li>
-<li>if you want to ignore a folder only on several machines, not all.</li>
-<li>you don&#8217;t want to sync all the dotfiles. you might want to just bring in what you want.</li>
-</ul>
-
-
-<h3>How to</h3>
-
-<p>Copy over the dot files you want to save under the repository and commit them.</p>
-
-<div><script src='https://gist.github.com/1160309.js?file=dot-files-3.sh'></script>
-<noscript><pre><code>dotfiles (master) $ cp -pr ~/.ssh .
-dotfiles (master) $ git ci -am&quot; initial commit&quot;</code></pre></noscript></div>
-
-
-<p>I rather use small scripts to copy the dotfiles back to home directory or create symlinks in home directory that would point to the checked out repository. To copy or symlink is another personal choice. With symlinks you can change the files in home directory as seem them in git change-list. My personal favorite is to copy them across with file permissions and settings preserved.</p>
-
-<div><script src='https://gist.github.com/1160309.js?file=dot-files-4.sh'></script>
-<noscript><pre><code>#name: deploy.sh
-# move the dot files to home 
-#!/bin/sh
-git ls-files | grep &quot;^\\.&quot; | xargs -n1 -I{} cp -prfv {} ~/{}
-
-#name: update.sh
-#move the updated dot files back to the local repository
-#!/bin/sh
-git ls-files | grep &quot;^\\.&quot; | xargs -n1 -I{} cp -prfv ~/{} {}</code></pre></noscript></div>
-
-
-<p>You now can check out the git repo and run those commands to sync your dot files. Configure Dropbox to sync the files on the machine, or just copy over that dot-files.git folder.</p>
-
-<h3>Workflow</h3>
-
-<div><script src='https://gist.github.com/1160309.js?file=dot-files-5.sh'></script>
-<noscript><pre><code>git clone ~/Dropbox/git-repo/dot-files.git
-#copy the local dotfiles to repo.
-./update.sh
-#stash them if you want to bring them back
-git stash
-#deploy the repo dot files to home directory.
-./deploy.sh
-
-
-#alternative approach.
-#copy to the repo
-./update.sh
-# diff the change to understand what your are adding or taking away from existing dot files
-git diff
-#once you are reviewed the changes and ready to go.
-git branch -b machine-name master
-git ci -am&quot;merged changes&quot;
-#deploy the new branch to home directory
-
-
-#Don't forget to push your changes to master after any changes.</code></pre></noscript></div>
-
-
-<p>On a new machine where there are existing dot files I normally run the update.sh script, so the existing dot files are copied over to repo. Then stash the changes (thus saving the current system config), and run deploy to move my dot files to the home directory. I can revert to old version from stash. Or I can diff the changes with stash and merge them to a machine specific branch.</p>
-
-<p>That&#8217;s it, never again lose your dot files.</p>
 </div>
   
+  
+    <footer>
+      <a rel="full-article" href="/blog/2011/08/21/a-guide-to-managing--dot-files/">Read on &rarr;</a>
+    </footer>
   
 
 
