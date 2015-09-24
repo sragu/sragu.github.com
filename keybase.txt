@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/sragu
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://sragu.xyz
+  * I am sragu (https://keybase.io/sragu) on keybase.
+  * I have a public key with fingerprint 7E2C 829F 3CED 0E54 E26A  595B 0308 428E 1807 B91D
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101726f0e3c15c42bca1e1dc31f287b094ce91b8d6307a787ebf02d96d8e8800c520a",
+            "fingerprint": "7e2c829f3ced0e54e26a595b0308428e1807b91d",
+            "host": "keybase.io",
+            "key_id": "0308428e1807b91d",
+            "kid": "0101726f0e3c15c42bca1e1dc31f287b094ce91b8d6307a787ebf02d96d8e8800c520a",
+            "uid": "073101f5d5d487d44510e1bc08ab0819",
+            "username": "sragu"
+        },
+        "service": {
+            "hostname": "sragu.xyz",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1443103270,
+    "expire_in": 157680000,
+    "prev": "adc89be315db056bb76d6b7ec19a980fae9be12c618f44f2ec7ae7c8fddb438e",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.46
+Comment: https://keybase.io/crypto
+
+yMM7AnicrVJrUFRlGF6uIuFgtClRcjlIARF9536WCUKW2YmLNBFqGQ2d75zvLGeg
+3WV3WZbLdqVVIoXJAaFJSDYdshVKBRSbCHCGikYlsgEmssRqirI0BRYqOidrppn+
+9uub732f53mf5533zLoATahfQEjW3sg1pzb5jQ83V2q2B/rfXYtBs1iNpdViZeiv
+B5WLyGYvKZNFLA0DOMBZgpEAIgWcFigCCjyOcFEgcYngWAh0lIB0OOREhgQsz3Is
+ghIgRB0jcojjABBoAvBYCibJJiOyWqyyya7IsogQOEInkQISAaIpRDA8raMhIAFH
+ERzCOcBCHS4qxFKzTWUo5iBvQ6myWakpn5Kb9v6L/599V96UY0lFUKJFWqQ4VqQo
+GgcIhwLgeAg4XKcCbchq4p9GCtpm5Y2VmCsFU0oOWUDqVtUY/26nOqtrFJbFarab
+BXO5Ui612y1pKstebVFhVQiW/C1QAmWTqCxQITiQ1SabTVgariAFu6wq4hSl2CMJ
+FqRgyGmRrahEVhE0yyhJAFDHIIciyYsCp4OIxGkRApqBkGVEBrJIwHW8jgMSj5Qu
+TggMzkkUJRFIYHnECpwkipAiOYSpkSpMZiyNVGzyRjWMbDTx9korwlwjw8WBGr9Q
+TXCQv3pYmtC16/85t/q58FVr0nDpNXdESNXJwjgxPad7gz7ok9QG742ehpGKW7a4
+kiryr++4XHc/XVrsybzV13Pvg4awxuj0iAYC6/dWfEsf2mg63/NW8WM5U1Ntx7ft
+zE4P6bu+eGE6qtO38t0bS3FX2pe8I51hhO1419W6abj1qtHzVEcyeUfmDQPnTHLE
+1uS8cnL9RH13dsLrC90N+6NmIlxHfYt7Bl/t/rxp+fb0/tbH5/Ii7hroLZ/4wzP+
+Ve/EbG6qgf7p+d6o5jo60btgzC8a3FM1tremdhI/9OnPSfwk0oPEor6Y2ffCB0bn
+f5yZ3j00/2x8PgjP1SctbZzte2Ihczksb0gf6fG+RqHtG9xu5A5ojnkgmrxgnzym
+3zL6/m1lDyUfrjia/WKsVND1y0vvnOg43xUE32aWL9rr/D363IvGoS/uaX/yhYOz
+zs4+LdQe7GhivxlsvO+RqvqAgdPdBp9rhzej8EzR2VTt5AHD7+zsZ5ublofqCgri
+kr/+3hPpaE3QXPHaTzszX05p2+refGBu3BJ7+DfYzxLumZXCs54jUxnkMwx4bjBA
+mzBePPRwYn58VCOP73Rqg/3chixbnvnD+NFfAzOaTxRe+jKrfaS16V1NyqmW3Zui
+HSMr+Khr/tzHPxzzrWlZGxGcf2nfox99wLUfObfOvGvM1xZ557XEN+eyLsdum14d
+i1nVNi62BO76E1aAtng=
+=OhGs
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sragu
+
+==================================================================
