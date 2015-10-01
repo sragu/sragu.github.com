@@ -1,8 +1,8 @@
 # Site settings
-title: type blog
+title: sragu.xyz
 email: email@sragu.xyz
-description: > # this means to ignore newlines until "baseurl:"
-  This site is maintained by Srinivasan Raguraman.
+description: >
+  All things about me.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://sragu.xyz" # the base hostname & protocol for your site
 twitter_username: sragu
