@@ -13,3 +13,10 @@ keybase_username:  sragu
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-mentions
+  - jekyll-sitemap
+  - jemoji
+  - jekyll-feed
+  - jekyll-press # not supported by github-pages so you need to push manually
