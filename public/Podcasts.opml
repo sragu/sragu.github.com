@@ -3,7 +3,7 @@
 <head>
 	<title>My favorite podcasts.</title>
 	<dateCreated>Thu, 18 Aug 2016 02:09:11 GMT</dateCreated>
-	<dateModified>Thu, 18 Aug 2016 02:09:11 GMT</dateModified>
+	<dateModified>Mon, 12 Feb 2018 05:20:04 GMT</dateModified>
 </head>
 <body>
 	<outline text="EconTalk" type="rss" xmlUrl="http://files.libertyfund.org/econtalk/EconTalk.xml" htmlUrl="http://www.EconTalk.org" />
@@ -11,12 +11,10 @@
 	<outline text="On Being with Krista Tippett" type="rss" xmlUrl="http://www.onbeing.org/podcasts/podcast.xml" htmlUrl="http://onbeing.org" />
 	<outline text="The Distance" type="rss" xmlUrl="http://feeds.feedburner.com/distancepodcast" htmlUrl="https://art19.com/shows/the-distance-podcast" />
 	<outline text="99% Invisible" type="rss" xmlUrl="http://feeds.99percentinvisible.org/99percentinvisible" htmlUrl="http://99percentinvisible.org" />
-	<outline text="Radiolab" type="rss" xmlUrl="http://feeds.wnyc.org/radiolab" htmlUrl="http://www.radiolab.org/series/podcasts/" />
-	<outline text="Strangers" type="rss" xmlUrl="http://feeds.strangersnomore.org/StrangersNoMore" htmlUrl="http://www.storycentral.org/" />
 	<outline text="The New York Public Library Podcast" type="rss" xmlUrl="http://newyorkpubliclibrary.libsyn.com/rss" htmlUrl="http://www.nypl.org/podcast" />
 	<outline text="The One You Feed" type="rss" xmlUrl="http://oneyoufeed.libsyn.com/rss" htmlUrl="http://oneyoufeed.net" />
+	<outline text="Sydney Ideas" htmlUrl="https://soundcloud.com/sydney-ideas" />
 	<outline text="PreAccident Investigation Podcast" type="rss" xmlUrl="http://preaccidentpodcast.podbean.com/feed/" htmlUrl="http://preaccidentpodcast.podbean.com" />
-  <outline text="The Truth" type="rss" xmlUrl="http://feeds.feedburner.com/thetruthapm" htmlUrl="http://www.thetruthpodcast.com" />
-	<outline text="Revisionist History" type="rss" xmlUrl="http://feeds.feedburner.com/RevisionistHistory" htmlUrl="http://revisionisthistory.com/" />
+	<outline text="Q: The Podcast from CBC Radio" type="rss" xmlUrl="http://www.cbc.ca/podcasting/includes/qpodcast.xml" htmlUrl="http://www.cbc.ca/radio/podcasts/arts-culture/q-the-podcast/" />
 </body>
 </opml>
