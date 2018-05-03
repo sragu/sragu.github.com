@@ -14,7 +14,7 @@ keybase_username:  sragu
 # Build settings
 markdown: kramdown
 
-gems:
+plugins:
   - jekyll-mentions
   - jekyll-sitemap
   - jemoji
