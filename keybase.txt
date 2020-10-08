@@ -4,149 +4,49 @@ https://keybase.io/sragu
 
 I hereby claim:
 
-  * I am an admin of http://sragu.xyz
+  * I am an admin of http://sragu.com
   * I am sragu (https://keybase.io/sragu) on keybase.
-  * I have a public key with fingerprint 7E2C 829F 3CED 0E54 E26A  595B 0308 428E 1807 B91D
+  * I have a public key ASCWIeQPsH_M9B4kS2wCM5ndclEHxaLYwgW5hhwYcYih0go
 
 To do so, I am signing this object:
 
 {
-    "body": {
-        "key": {
-            "eldest_kid": "0101726f0e3c15c42bca1e1dc31f287b094ce91b8d6307a787ebf02d96d8e8800c520a",
-            "fingerprint": "7e2c829f3ced0e54e26a595b0308428e1807b91d",
-            "host": "keybase.io",
-            "key_id": "0308428e1807b91d",
-            "kid": "0101726f0e3c15c42bca1e1dc31f287b094ce91b8d6307a787ebf02d96d8e8800c520a",
-            "uid": "073101f5d5d487d44510e1bc08ab0819",
-            "username": "sragu"
-        },
-        "service": {
-            "hostname": "sragu.xyz",
-            "protocol": "http:"
-        },
-        "type": "web_service_binding",
-        "version": 1
+  "body": {
+    "key": {
+      "eldest_kid": "0101726f0e3c15c42bca1e1dc31f287b094ce91b8d6307a787ebf02d96d8e8800c520a",
+      "host": "keybase.io",
+      "kid": "01209621e40fb07fccf41e244b6c023399dd725107c5a2d8c205b9861c187188a1d20a",
+      "uid": "073101f5d5d487d44510e1bc08ab0819",
+      "username": "sragu"
     },
-    "ctime": 1443103270,
-    "expire_in": 157680000,
-    "prev": "adc89be315db056bb76d6b7ec19a980fae9be12c618f44f2ec7ae7c8fddb438e",
-    "seqno": 3,
-    "tag": "signature"
+    "merkle_root": {
+      "ctime": 1602180194,
+      "hash": "b3b85056acd3869252246f3a371685094dc30841982bca9e1595690285d03fbc0312680129760f814ae5a3e57476b8681d36054aaf691c52948662c3bf4c5be3",
+      "hash_meta": "b229421f534fa30d6012e0f0cc25fb65616642462908757201770d5655d3ad61",
+      "seqno": 17780047
+    },
+    "service": {
+      "entropy": "3K1IZA4Iuu8lhnwg1YmH3SvB",
+      "hostname": "sragu.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1602180232,
+  "expire_in": 504576000,
+  "prev": "0e37dc7969bec822d20d261658aceb5a89964f5be019787d6c6d863978d37b7c",
+  "seqno": 18,
+  "tag": "signature"
 }
 
 which yields the signature:
 
------BEGIN PGP MESSAGE-----
-Version: Keybase OpenPGP v2.0.46
-Comment: https://keybase.io/crypto
-
-yMM7AnicrVJrUFRlGF6uIuFgtClRcjlIARF9536WCUKW2YmLNBFqGQ2d75zvLGeg
-3WV3WZbLdqVVIoXJAaFJSDYdshVKBRSbCHCGikYlsgEmssRqirI0BRYqOidrppn+
-9uub732f53mf5533zLoATahfQEjW3sg1pzb5jQ83V2q2B/rfXYtBs1iNpdViZeiv
-B5WLyGYvKZNFLA0DOMBZgpEAIgWcFigCCjyOcFEgcYngWAh0lIB0OOREhgQsz3Is
-ghIgRB0jcojjABBoAvBYCibJJiOyWqyyya7IsogQOEInkQISAaIpRDA8raMhIAFH
-ERzCOcBCHS4qxFKzTWUo5iBvQ6myWakpn5Kb9v6L/599V96UY0lFUKJFWqQ4VqQo
-GgcIhwLgeAg4XKcCbchq4p9GCtpm5Y2VmCsFU0oOWUDqVtUY/26nOqtrFJbFarab
-BXO5Ui612y1pKstebVFhVQiW/C1QAmWTqCxQITiQ1SabTVgariAFu6wq4hSl2CMJ
-FqRgyGmRrahEVhE0yyhJAFDHIIciyYsCp4OIxGkRApqBkGVEBrJIwHW8jgMSj5Qu
-TggMzkkUJRFIYHnECpwkipAiOYSpkSpMZiyNVGzyRjWMbDTx9korwlwjw8WBGr9Q
-TXCQv3pYmtC16/85t/q58FVr0nDpNXdESNXJwjgxPad7gz7ok9QG742ehpGKW7a4
-kiryr++4XHc/XVrsybzV13Pvg4awxuj0iAYC6/dWfEsf2mg63/NW8WM5U1Ntx7ft
-zE4P6bu+eGE6qtO38t0bS3FX2pe8I51hhO1419W6abj1qtHzVEcyeUfmDQPnTHLE
-1uS8cnL9RH13dsLrC90N+6NmIlxHfYt7Bl/t/rxp+fb0/tbH5/Ii7hroLZ/4wzP+
-Ve/EbG6qgf7p+d6o5jo60btgzC8a3FM1tremdhI/9OnPSfwk0oPEor6Y2ffCB0bn
-f5yZ3j00/2x8PgjP1SctbZzte2Ihczksb0gf6fG+RqHtG9xu5A5ojnkgmrxgnzym
-3zL6/m1lDyUfrjia/WKsVND1y0vvnOg43xUE32aWL9rr/D363IvGoS/uaX/yhYOz
-zs4+LdQe7GhivxlsvO+RqvqAgdPdBp9rhzej8EzR2VTt5AHD7+zsZ5ublofqCgri
-kr/+3hPpaE3QXPHaTzszX05p2+refGBu3BJ7+DfYzxLumZXCs54jUxnkMwx4bjBA
-mzBePPRwYn58VCOP73Rqg/3chixbnvnD+NFfAzOaTxRe+jKrfaS16V1NyqmW3Zui
-HSMr+Khr/tzHPxzzrWlZGxGcf2nfox99wLUfObfOvGvM1xZ557XEN+eyLsdum14d
-i1nVNi62BO76E1aAtng=
-=OhGs
------END PGP MESSAGE-----
-
-And finally, I am proving ownership of this host by posting or
-appending to this document.
-
-View my publicly-auditable identity here: https://keybase.io/sragu
-
-==================================================================
-
-
-==================================================================
-https://keybase.io/sragu
---------------------------------------------------------------------
-
-I hereby claim:
-
-  * I am an admin of https://sragu.xyz
-  * I am sragu (https://keybase.io/sragu) on keybase.
-  * I have a public key with fingerprint 7E2C 829F 3CED 0E54 E26A  595B 0308 428E 1807 B91D
-
-To do so, I am signing this object:
-
-{
-    "body": {
-        "key": {
-            "eldest_kid": "0101726f0e3c15c42bca1e1dc31f287b094ce91b8d6307a787ebf02d96d8e8800c520a",
-            "fingerprint": "7e2c829f3ced0e54e26a595b0308428e1807b91d",
-            "host": "keybase.io",
-            "key_id": "0308428e1807b91d",
-            "kid": "0101726f0e3c15c42bca1e1dc31f287b094ce91b8d6307a787ebf02d96d8e8800c520a",
-            "uid": "073101f5d5d487d44510e1bc08ab0819",
-            "username": "sragu"
-        },
-        "revoke": {
-            "sig_ids": [
-                "689dbb5cb2eec7f87eceaadaa2205f1a9f5d253bfa24980f23d03bfb8651fdb50f"
-            ]
-        },
-        "service": {
-            "hostname": "sragu.xyz",
-            "protocol": "https:"
-        },
-        "type": "web_service_binding",
-        "version": 1
-    },
-    "ctime": 1444303866,
-    "expire_in": 157680000,
-    "prev": "7dd64c4abd3caf8483d509291d3f5566f0c8603c86112d3f49e086e5d0d3074e",
-    "seqno": 5,
-    "tag": "signature"
-}
-
-which yields the signature:
-
------BEGIN PGP MESSAGE-----
-Version: Keybase OpenPGP v2.0.47
-Comment: https://keybase.io/crypto
-
-yMN+AnicrVJtUFRVGF4kPmdIVoRZZqDRW1s4MXju5967U1IoxoC5JaF8ttx7z7nL
-Au7CfsVHmCMZ5TQQGEhjTUjkMAJCKYmZKIgpweQ2ShgQEWmmTA1CMUUKnas100x/
-+3POnHee93me933OQIivJtjHNzChWhdwMtpnqO9nt2Z7ROpiOSHZYSlhLCcK0L0L
-FULkdJkLrJAwEoAEpIHiFIBomWRlhpJkkUQklGlSoXiDBARGRgIp8ZCjgUE08AYk
-KYCCAgd5xPMAyCwFRCKWUKw2C3IUOaw2F6Y1IErmKUGhZQQBYhlEcSIrsBKgAc9Q
-PCJ5YJAEEuLGPLtT7cDmJNGJ4qx2XMMP8317/8X/z77d9+kMNCZUWMhChjdAhmFJ
-gEhJBrwoAZ4UVKATOWziToTRTodocRMVsYQDeewFSF2q02rBjp2EMYvgeAFKEitL
-FEKyQcHKMhJFKIoUBViFFAUsQ7G0pIgUI/BAoWgI8EviOZZUoMQChcjB3FjOY5Xv
-kasr+rd0XElpGXZU5LC77LK9EJfzXK4ip1G15CotUnEvIcn8N4NZstogTgd3eJDD
-abXbCCOJkbLLqlKSDMPQgOY5LpZAJUVWBzJbVQRr4PCaAFB1kEfNFEKOkRlRgrQs
-KjzD05AFAoVToRWW5XAWMs8BGh8kSeEaIyDAc4iFAOIIGESoMxXb7ISRxTZFizqN
-1WITXW4HIir6+7If0PgEa/z9Vqi/VhMcFPrPX054Y+WSMRy9UOgE2qcXTfM1H+QL
-DesE3d2LeSFhzyQ9dCSS/rYq4MWp8KHhJvfd483eudzhyJ68lNlzWvP0mvYLPyTN
-Tm5+fWN/xoXMvkuKpzU0yjSq7evUBw0ebqnkV2Q0XKnxS398ZG17byB3Mrdieaxw
-dbx2oPnBx4a93ZHrM9ePvfNHSdKHuyvzV4X9NvNu7LnxHY7kIuHinOVa/URm8pQ+
-ceLU3vz9oRt05q31fR9NFr8cEMh9ErGw7fNjJ6hfbviGx1fvmePi0iaHzCMO7g7c
-5DVGTTR35dVfH405PZsYHu69NXi7YvGybpc+Jzrs0faUAx0tEeL4Z7lNS7VcSCX8
-SWmbmA+9WV3cg/QoreML75kNqb82Zm+pOyJo07K607dFv+1cefBUi//7p+v8H36F
-D4vtTu6cCWwd0R6O8Lu6cODTjNQzgWeXbtaue87E7E0/ZKsb/71mKDnN/6tQyZS0
-r+pq72jMwLHi/jdtr85/PNZ1wuXfZWrVPD/9DR1iCtpvT/tuzeprzzoarujE2k59
-98atbZtLq1cB93Jy2VPH8986/8ji7PdTOTvOgsa59xKOvmZOaKU3reVtJ1OfyP/6
-zkF9yr5q3eD2rJqeobJb8deX3X8mTi30ZJcL3qijcdMzW57M6Ky63aT5MnVnhX6i
-t3z35T2jP8ZVZrSdDx2N6b40Z0lvnD90o2OX5y8pT9by
-=cuCa
------END PGP MESSAGE-----
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgliHkD7B/zPQeJEtsAjOZ3XJRB8Wi2MIFuYYcGHGIodIKp3BheWxvYWTESpcCEsQgDjfceWm+yCLSDSYWWKzrWomWT1vgGXh9bG2GOXjTe3zEICTvZq6iELvKFn3eGddSY64FWTtONYdEzlRSXrTDEQvwAgHCo3NpZ8RAycuTfEl9kPS0Mu0hYGhIKKYf6i/A02HNNRwyTnoTdwSA6Rxjvo20K1EeOpQDUrHNMeyX/QIaE5kJbTLCky7iDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPThHHTdnJIpFMOc8/K5yT9wSywpyWH4FL7GXndVJHI4o3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
