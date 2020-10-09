@@ -54,3 +54,60 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/sragu
 
 ==================================================================
+
+==================================================================
+https://keybase.io/sragu
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://sragu.com
+  * I am sragu (https://keybase.io/sragu) on keybase.
+  * I have a public key ASCWIeQPsH_M9B4kS2wCM5ndclEHxaLYwgW5hhwYcYih0go
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101726f0e3c15c42bca1e1dc31f287b094ce91b8d6307a787ebf02d96d8e8800c520a",
+      "host": "keybase.io",
+      "kid": "01209621e40fb07fccf41e244b6c023399dd725107c5a2d8c205b9861c187188a1d20a",
+      "uid": "073101f5d5d487d44510e1bc08ab0819",
+      "username": "sragu"
+    },
+    "merkle_root": {
+      "ctime": 1602207609,
+      "hash": "af0e1bbe7fe4aa644d0d9f08d32606d0c1d59f5e17d8177847a90edb75c330246892d20dd52794b1fdfc3730bbdd1d280a63b175018912ebed6deb27bd8e3145",
+      "hash_meta": "44d38bfc111cdbcf1f47e3d99cb2601090aa9c439905a44d994056f062d04456",
+      "seqno": 17783269
+    },
+    "service": {
+      "entropy": "r4qhSC9wOe6ouiSAB9CjuaKM",
+      "hostname": "sragu.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1602207625,
+  "expire_in": 504576000,
+  "prev": "bfb1c1eb9396db31244619711c9b1fc52cd75ad6774d39723a305e1efa326c8b",
+  "seqno": 19,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgliHkD7B/zPQeJEtsAjOZ3XJRB8Wi2MIFuYYcGHGIodIKp3BheWxvYWTESpcCE8Qgv7HB65OW2zEkRhlxHJsfxSzXWtZ3TTlyOjBeHvoybIvEIPi8UoWK2/fh8zgvc4wl5OffEWPKtOsD6a3LeEQUYtLiAgHCo3NpZ8RAz3HjYReeycostk0Z6TWT0hybwXdkJX83dG5NuQWcunFF63KLhlpISQH+z71Oi74MyZFUtiqFfQkEC4SjYGf/BKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIC8sSXqp8LHKj2H33ls/dYE4vfDMoh5HfC/0GgOZFDCMo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sragu
+
+==================================================================
