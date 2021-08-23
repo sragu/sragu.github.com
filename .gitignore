@@ -1,4 +1,3 @@
-_site
 .sass-cache
 # as this is generated from github pages anyways on install. 
 Gemfile.lock
