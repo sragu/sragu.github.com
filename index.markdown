@@ -7,10 +7,9 @@ layout: default
 
 Hello, there. Nice to meet you!
 
-I write software for [Thoughtworks](https://thoughtworks.com) and their clients.
+I [build software](https://www.linkedin.com/in/sragu/) for [Thoughtworks](https://thoughtworks.com) and their clients.
 
-You can follow my thoughts [here](https://twitter.com/sragu), and my code [here](https://github.com/sragu).
+If you would like, you could follow my [thoughts](https://twitter.com/sragu), and my [code dabbling](https://github.com/sragu).
 
-Here is the [feed](public/podcasts.opml) for the podcasts that I listen to generally.
-
-Here is a curated [feed](https://lnns.co/48d-0luyVxp) of the episodes, I enjoyed recently.
+Cheers,\
+Srini [sri-ni]
